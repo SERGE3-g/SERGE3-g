@@ -337,7 +337,7 @@ Profilo ibrido che combina supporto tecnico avanzato e sviluppo software su appl
 | **GitHub Developer Program Member** | Membro ufficiale del programma sviluppatori GitHub |
 | **GitHub Pro** | Account Pro con accesso a funzionalità avanzate |
 | **607 Contributions** | Contributi nel corso del 2026, con attività continuativa |
-| **129 Repositories** | Portfolio pubblico di progetti in Java, C++, JavaScript e TypeScript |
+| **130+ Repositories** | Portfolio di progetti in Java, Python, C++, JavaScript e TypeScript — pubblici e privati |
 | **Pull Shark** ×2 | Riconoscimento GitHub per pull request mergeate |
 | **Quickdraw** | Riconoscimento GitHub per rapidità di risposta su issue e PR |
 | **YOLO** | Riconoscimento GitHub per merge diretto su pull request |
