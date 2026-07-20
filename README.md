@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:4c1d95,100:7c3aed&height=200&section=header&text=Serge%20Guea&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Application%20Management&descAlignY=55&descSize=18"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Software+Developer+%40+TAS;Java+%7C+Spring+Boot+%7C+Angular+%7C+React;Enterprise+Microservices+Architecture;AI-Assisted+Engineering+Practitioner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&height=45&lines=Software+Developer+%40+TAS+%E2%80%94+Banking+%26+Fintech;Java+%7C+Spring+Boot+%7C+Angular+%7C+React+%7C+TypeScript;Enterprise+Microservices+Architecture;AI-Assisted+Engineering+Practitioner" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -30,7 +30,12 @@
 
 <img src="https://komarev.com/ghpvc/?username=SERGE3-g&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/SERGE3-g?label=Followers&style=flat-square&color=7c3aed&labelColor=1e1b4b" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/SERGE3-g?label=Total%20Stars&style=flat-square&color=7c3aed&labelColor=1e1b4b" alt="Stars"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSERGE3-g&query=%24.public_repos&label=Public%20Repos&style=flat-square&color=7c3aed&labelColor=1e1b4b" alt="Public Repos"/>
+<img src="https://img.shields.io/badge/Contributions%202026-607-7c3aed?style=flat-square&labelColor=1e1b4b" alt="Contributions"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e1b4b,50:7c3aed,100:1e1b4b&height=3&section=header" width="100%"/>
 
 </div>
 
@@ -69,11 +74,15 @@ Credo in un metodo preciso: **specifica prima del codice**, **test prima dell'im
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=spring,nodejs,postgres,mysql,hibernate&theme=dark" alt="Backend"/>
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres,mysql,sqlite,hibernate&theme=dark" alt="Backend"/>
+
+**Data & Automation**
+
+<img src="https://skillicons.dev/icons?i=python,flask,bash,powershell&theme=dark" alt="Data"/>
 
 **Cloud, DevOps & Tooling**
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,maven,postman,idea&theme=dark" alt="DevOps"/>
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,git,github,githubactions,linux,maven,postman,idea&theme=dark" alt="DevOps"/>
 
 </div>
 
@@ -88,7 +97,22 @@ Integro strumenti di AI generativa nel workflow di sviluppo quotidiano, con un a
 | **AI-Assisted Development** | `Advanced` | Workflow strutturato spec → piano → TDD su microservizi enterprise; delivery a fasi con gate di test verdi tra un passo e l'altro |
 | **Prompt Engineering** | `Advanced` | Progettazione di prompt strutturati, skill riusabili e agent specializzati per task di sviluppo ricorrenti |
 | **AI-Augmented Code Review** | `Intermediate` | Review automatizzata pre-merge, security audit, individuazione di regressioni e refactoring guidato |
-| **AI Tooling & Automation** | `Intermediate` | Integrazione di agenti e tooling MCP nel ciclo di sviluppo; automazione di documentazione e collection API |
+| **AI Tooling & Automation** | `Intermediate` | Sviluppo di un **MCP server** custom che espone strumenti operativi ad agenti AI; automazione di documentazione e collection API |
+
+---
+
+## Engineering Principles
+
+Il metodo che applico su ogni progetto, nato da un contesto — quello bancario — dove un dato sbagliato non è un bug ma un danno.
+
+| Principle | Applicazione concreta |
+|:---|:---|
+| **Specifica prima del codice** | Ogni feature parte da una spec scritta e da un piano a passi, non dall'editor |
+| **Test prima dell'implementazione** | TDD come default: il test rosso viene prima del codice che lo fa passare |
+| **Evidenza prima di "fatto"** | Nessuna funzionalità è completa senza output di test verde a dimostrarlo |
+| **Un passo alla volta** | Gate verde tra una fase e l'altra: mai due cantieri aperti in parallelo |
+| **Integrità del dato non negoziabile** | Transazioni ACID, lock pessimistico e vincoli a livello di database, non solo applicativi |
+| **Migrazioni versionate** | Schema sotto controllo di versione (Flyway), mai auto-generato in produzione |
 
 ---
 
@@ -131,6 +155,80 @@ Gestionale per affitti brevi con area amministrativa e sito pubblico, orientato 
 | **Repository** | [SERGE3-g/CivitasGaudii](https://github.com/SERGE3-g/CivitasGaudii) |
 
 Attenzione particolare alla UX e al microcopy in italiano, con l'obiettivo di rendere l'interfaccia amministrativa immediata anche per utenti non tecnici.
+
+</details>
+
+<details>
+<summary><b>Business Intelligence Suite — Analisi Dati Bancari</b></summary>
+
+<br/>
+
+Suite desktop di **business intelligence enterprise** per l'analisi di dati bancari, processi **ETL**, monitoraggio sistemi e reportistica professionale. Progetto in ambito professionale — repository privato, descritto qui per competenze tecniche.
+
+| | |
+|:---|:---|
+| **Stack** | Python 3.10+ · GUI multi-tab · openpyxl · pandas · SFTP · packaging multipiattaforma |
+| **Scale** | Suite modulare con oltre 10 strumenti integrati · workflow di reportistica mensile automatizzato · **1K+ download** |
+| **Performance** | Pipeline ETL su dataset finanziari · conversione automatica di export in formati normalizzati · elaborazione batch ottimizzata |
+| **Security** | Gestione di dati finanziari sensibili · configurazione esternalizzata · distribuzione controllata |
+| **Impact** | Automazione completa di un processo mensile prima manuale · eliminazione di dipendenze da tooling legacy · normalizzazione automatica dei formati |
+| **Repository** | `Privato` — disponibile in colloquio |
+
+Rilasciata su **Windows, macOS e Linux** con versionamento semantico e auto-updater integrato.
+
+</details>
+
+<details>
+<summary><b>Financial Data Management Suite</b></summary>
+
+<br/>
+
+Applicazione desktop per **analisi, gestione e reportistica di dati bancari e finanziari**, che unifica in un'unica interfaccia gli strumenti operativi di un team. Progetto in ambito professionale — repository privato.
+
+| | |
+|:---|:---|
+| **Stack** | Python 3.10+ · interfaccia desktop moderna · elaborazione XML/CSV/JSON · licenza MIT |
+| **Scale** | Suite integrata multi-modulo · rilasci versionati (v2.6.0) |
+| **Performance** | Parsing e trasformazione di flussi dati strutturati · generazione report su volumi consistenti |
+| **Security** | Trattamento di dati finanziari con separazione della configurazione dai dati |
+| **Impact** | Interfaccia unica al posto di strumenti frammentati · riduzione dell'operatività manuale |
+| **Repository** | `Privato` — disponibile in colloquio |
+
+</details>
+
+<details>
+<summary><b>Home Server — Infrastruttura di Staging</b></summary>
+
+<br/>
+
+Infrastruttura **self-hosted** per ambiente di staging: definisce come i servizi sono ospitati, esposti in sicurezza e rilasciati. Infrastructure-as-code, separata dal codice applicativo.
+
+| | |
+|:---|:---|
+| **Stack** | Docker · Nginx Proxy Manager · Cloudflare Tunnel · PowerShell · Shell · restic |
+| **Scale** | Stack condiviso multi-progetto · pipeline di deploy per applicazioni React, Next.js e Spring |
+| **Performance** | Watchdog Docker con health check a timeout · scheduler per job ricorrenti |
+| **Security** | **Backup automatici cifrati** (restic) di PostgreSQL · deploy key SSH per git pull headless · esposizione via tunnel senza porte aperte |
+| **Impact** | Ambiente di staging reale e riproducibile, gestito interamente come codice |
+| **Repository** | `Privato` — disponibile in colloquio |
+
+</details>
+
+<details>
+<summary><b>MCP Server — AI Tooling Integration</b></summary>
+
+<br/>
+
+Server **Model Context Protocol** che espone strumenti operativi ad agenti AI, integrando automazione documentale, elaborazione dati e tooling di sviluppo nel workflow assistito.
+
+| | |
+|:---|:---|
+| **Stack** | Node.js · JavaScript · Model Context Protocol · integrazione Claude Desktop |
+| **Scale** | Più moduli di tooling (elaborazione CSV/Excel, automazione email, utility di sistema) |
+| **Performance** | Esecuzione locale a bassa latenza degli strumenti esposti |
+| **Security** | Configurazione via variabili d'ambiente · esecuzione in ambiente locale controllato |
+| **Impact** | Estende le capacità di un assistente AI con strumenti su misura per il workflow reale |
+| **Repository** | [SERGE3-g/mcp-server](https://github.com/SERGE3-g/mcp-server) |
 
 </details>
 
@@ -273,8 +371,8 @@ Profilo ibrido che combina supporto tecnico avanzato e sviluppo software su appl
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SERGE3-g&show_icons=true&count_private=true&hide_border=true&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SERGE3-g&layout=compact&hide_border=true&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SERGE3-g&show_icons=true&count_private=true&hide_border=true&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SERGE3-g&layout=compact&hide_border=true&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages"/>
 
 <br/><br/>
 
@@ -288,7 +386,7 @@ Profilo ibrido che combina supporto tecnico avanzato e sviluppo software su appl
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=SERGE3-g&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
+<img src="https://github-trophies.vercel.app/?username=SERGE3-g&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
 
 </div>
 
