@@ -19,8 +19,11 @@
 <a href="mailto:sergeguea.info@gmail.com">
   <img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
+<a href="mailto:gueaserge2@gmail.com">
+  <img src="https://img.shields.io/badge/Email%20Alt-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Alternativa"/>
+</a>
 <a href="https://github.com/SERGE3-g">
-  <img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-9333EA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <br/><br/>
@@ -349,13 +352,16 @@ open_to:
 <div align="center">
 
 <a href="mailto:sergeguea.info@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/sergeguea.info@gmail.com-4C1D95?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+<a href="mailto:gueaserge2@gmail.com">
+  <img src="https://img.shields.io/badge/gueaserge2@gmail.com-5B21B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Alternativa"/>
 </a>
 <a href="https://www.linkedin.com/in/sergeguea/">
-  <img src="https://img.shields.io/badge/LinkedIn-5B21B6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/SERGE3-g">
-  <img src="https://img.shields.io/badge/GitHub-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 </div>
