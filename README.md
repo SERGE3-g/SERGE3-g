@@ -132,7 +132,7 @@ Piattaforma di gestione magazzino a **microservizi** per un magazzino reale in p
 | **Performance** | Query batch anti-N+1 · paginazione server-side · bundle frontend lazy per-feature (~180kB gzip initial) |
 | **Security** | OAuth 2.0 Authorization Code + **PKCE S256** · JWT **RS256** con JWKS · RBAC a 6 ruoli · audit trail immutabile · API gateway come unico ingresso pubblico |
 | **Impact** | Tracciabilità unitaria per **lotto** (FEFO) e **numero di serie** · flusso end-to-end ricevimento → picking → packing → spedizione · reportistica multi-formato CSV/XLSX/PDF |
-| **Repository** | [SERGE3-g/WMS_PRO](https://github.com/SERGE3-g/WMS_PRO) |
+| **Repository** | `Privato` — disponibile in colloquio |
 
 Progetto sviluppato con metodo rigoroso: ogni fase chiusa solo con suite di test verde (**~350 test backend**, **294 test frontend**), osservabilità completa (Actuator, Prometheus, logging JSON con correlation id, stack Grafana + Loki) e verifica end-to-end dal vivo prima di dichiarare completo qualsiasi passo.
 
@@ -152,7 +152,7 @@ Gestionale per affitti brevi con area amministrativa e sito pubblico, orientato 
 | **Performance** | Componenti ottimizzati con animazioni fluide · rendering condizionale efficiente |
 | **Security** | Autenticazione e separazione dei ruoli tra area pubblica e amministrativa |
 | **Impact** | Gestione unificata di prenotazioni, occupancy e reportistica operativa |
-| **Repository** | [SERGE3-g/CivitasGaudii](https://github.com/SERGE3-g/CivitasGaudii) |
+| **Repository** | `Privato` — disponibile in colloquio |
 
 Attenzione particolare alla UX e al microcopy in italiano, con l'obiettivo di rendere l'interfaccia amministrativa immediata anche per utenti non tecnici.
 
@@ -228,7 +228,7 @@ Server **Model Context Protocol** che espone strumenti operativi ad agenti AI, i
 | **Performance** | Esecuzione locale a bassa latenza degli strumenti esposti |
 | **Security** | Configurazione via variabili d'ambiente · esecuzione in ambiente locale controllato |
 | **Impact** | Estende le capacità di un assistente AI con strumenti su misura per il workflow reale |
-| **Repository** | [SERGE3-g/mcp-server](https://github.com/SERGE3-g/mcp-server) |
+| **Repository** | `Privato` — disponibile in colloquio |
 
 </details>
 
@@ -264,7 +264,7 @@ Applicazione web sviluppata come progetto personale, focalizzata su interfaccia 
 | **Performance** | Interfaccia reattiva e responsive |
 | **Security** | Gestione sicura delle sessioni utente |
 | **Impact** | Progetto di sperimentazione su pattern frontend moderni |
-| **Repository** | [SERGE3-g/espressamente](https://github.com/SERGE3-g/espressamente) |
+| **Repository** | `Privato` — disponibile in colloquio |
 
 </details>
 
